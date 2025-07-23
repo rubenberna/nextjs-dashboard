@@ -1,5 +1,8 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
 
+export const experimental_ppr = true
+// This enables the experimental PPR (Partial Page Rendering) feature in Next.js
+
 export default function Layout({children}: {children: React.ReactNode}) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
