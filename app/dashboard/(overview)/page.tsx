@@ -4,6 +4,11 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import {LatestInvoicesSkeleton, RevenueChartSkeleton, CardSkeleton} from "@/app/ui/skeletons";
 import CardWrapper from "@/app/ui/dashboard/cards";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard Overview',
+};
 
 export default async function Page() {
 
